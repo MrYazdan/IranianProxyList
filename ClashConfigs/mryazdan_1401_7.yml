@@ -1,0 +1,99 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: MrYazdan|1, server: www.ligonfei.ml, port: 7890, type: trojan, password: 56I18FNTIH, sni: www.ligonfei.ml}
+  - {name: MrYazdan|2, server: ah.yd01.paopaocloud.cyou, port: 10003, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: paopao.v2.hk05.paopaocloud.cyou}}}
+  - {name: MrYazdan|3, server: ah.yd01.paopaocloud.cyou, port: 10014, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.sgp01.paopaocloud.cyou}}}
+  - {name: MrYazdan|4, server: az.hk01.paopaocloud.cyou, port: 10035, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.tw04.paopaocloud.cyou}}}
+  - {name: MrYazdan|5, server: ah.yd01.paopaocloud.cyou, port: 10009, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.hk06.paopaocloud.cyou}}}
+  - {name: MrYazdan|6, server: ah.yd01.paopaocloud.cyou, port: 10015, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.jp02.paopaocloud.cyou}}}
+  - {name: MrYazdan|7, server: ah.yd01.paopaocloud.cyou, port: 10007, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ssru.v2.jp01.2yun.win}}}
+  - {name: MrYazdan|8, server: ah.yd01.paopaocloud.cyou, port: 10035, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.tw04.paopaocloud.cyou}}}
+  - {name: MrYazdan|9, server: az.hk01.paopaocloud.cyou, port: 10014, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.sgp01.paopaocloud.cyou}}}
+  - {name: MrYazdan|10, server: az.hk01.paopaocloud.cyou, port: 10003, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: paopao.v2.hk05.paopaocloud.cyou}}}
+  - {name: MrYazdan|11, server: 119.36.161.40, port: 443, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.66218164.xyz}}}
+  - {name: MrYazdan|12, server: ah.yd01.paopaocloud.cyou, port: 10027, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.us07.paopaocloud.cyou}}}
+  - {name: MrYazdan|13, server: ah.yd01.paopaocloud.cyou, port: 10019, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vn01, headers: {Host: paopao.v2.vn01.paopaocloud.cyou}}}
+  - {name: MrYazdan|14, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.37194446.xyz}}}
+  - {name: MrYazdan|15, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.67271513.xyz}}}
+  - {name: MrYazdan|16, server: 119.36.161.40, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.55321621.xyz}}}
+  - {name: MrYazdan|17, server: az.hk01.paopaocloud.cyou, port: 10001, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.hk03.paopaocloud.cyou}}}
+  - {name: MrYazdan|18, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.22453300.xyz}}}
+  - {name: MrYazdan|19, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.61719864.xyz}}}
+  - {name: MrYazdan|20, server: 119.36.161.40, port: 443, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.19845465.xyz}}}
+  - {name: MrYazdan|21, server: az.hk01.paopaocloud.cyou, port: 10025, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.us05.paopaocloud.cyou}}}
+  - {name: MrYazdan|22, server: ah.yd01.paopaocloud.cyou, port: 10020, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.hk02.paopaocloud.cyou}}}
+  - {name: MrYazdan|23, server: ah.yd01.paopaocloud.cyou, port: 10042, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ph01.paopaocloud.cyou}}}
+  - {name: MrYazdan|24, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.69961573.xyz}}}
+  - {name: MrYazdan|25, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.32338075.xyz}}}
+  - {name: MrYazdan|26, server: az.hk01.paopaocloud.cyou, port: 10018, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ssru.v2.us03.2yun.win}}}
+  - {name: MrYazdan|27, server: 119.36.161.40, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.89095735.xyz}}}
+  - {name: MrYazdan|28, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.45043834.xyz}}}
+  - {name: MrYazdan|29, server: 119.36.161.40, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.49224325.xyz}}}
+  - {name: MrYazdan|30, server: 119.36.161.40, port: 443, type: vmess, uuid: 37c29f42-b7c7-40c7-9da9-743dcc4895bc, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.12321229.xyz}}}
+  - {name: MrYazdan|31, server: 119.36.161.40, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.45054102.xyz}}}
+  - {name: MrYazdan|32, server: jm.yd02.paopaocloud.cyou, port: 15623, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ssru.v2.jp03.2yun.win}}}
+  - {name: MrYazdan|33, server: db01.paopaocloud.cyou, port: 443, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: db01.paopaocloud.cyou}}}
+  - {name: MrYazdan|34, server: aus01.paopaocloud.cyou, port: 443, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: aus01.paopaocloud.cyou}}}
+  - {name: MrYazdan|35, server: ah.yd01.paopaocloud.cyou, port: 10001, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.hk03.paopaocloud.cyou}}}
+  - {name: MrYazdan|36, server: az.hk01.paopaocloud.cyou, port: 10019, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /vn01, headers: {Host: paopao.v2.vn01.paopaocloud.cyou}}}
+  - {name: MrYazdan|37, server: az.hk01.paopaocloud.cyou, port: 10011, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.hk07.paopaocloud.cyou}}}
+  - {name: MrYazdan|38, server: az.hk01.paopaocloud.cyou, port: 10031, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ssru.v2.ru02.2yun.win}}}
+  - {name: MrYazdan|39, server: u.cccao.cyou, port: 26623, type: vmess, uuid: 90af57c1-e982-4aeb-84c5-46203d76909e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}}
+  - {name: MrYazdan|40, server: ah.yd01.paopaocloud.cyou, port: 10033, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ssru.v2.jp03.2yun.win}}}
+  - {name: MrYazdan|41, server: az.hk01.paopaocloud.cyou, port: 10010, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.az01.paopaocloud.cyou}}}
+  - {name: MrYazdan|42, server: ah.yd01.paopaocloud.cyou, port: 10025, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.us05.paopaocloud.cyou}}}
+  - {name: MrYazdan|43, server: az.hk01.paopaocloud.cyou, port: 10036, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.mol01.paopaocloud.cyou}}}
+  - {name: MrYazdan|44, server: az.hk01.paopaocloud.cyou, port: 10026, type: vmess, uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: paopao.v2.us06.paopaocloud.cyou}}}
+proxy-groups:
+  - name: 🌐 Interanet
+    type: select
+    proxies:
+      - MrYazdan|1
+      - MrYazdan|2
+      - MrYazdan|3
+      - MrYazdan|4
+      - MrYazdan|5
+      - MrYazdan|6
+      - MrYazdan|7
+      - MrYazdan|8
+      - MrYazdan|9
+      - MrYazdan|10
+      - MrYazdan|11
+      - MrYazdan|12
+      - MrYazdan|13
+      - MrYazdan|14
+      - MrYazdan|15
+      - MrYazdan|16
+      - MrYazdan|17
+      - MrYazdan|18
+      - MrYazdan|19
+      - MrYazdan|20
+      - MrYazdan|21
+      - MrYazdan|22
+      - MrYazdan|23
+      - MrYazdan|24
+      - MrYazdan|25
+      - MrYazdan|26
+      - MrYazdan|27
+      - MrYazdan|28
+      - MrYazdan|29
+      - MrYazdan|30
+      - MrYazdan|31
+      - MrYazdan|32
+      - MrYazdan|33
+      - MrYazdan|34
+      - MrYazdan|35
+      - MrYazdan|36
+      - MrYazdan|37
+      - MrYazdan|38
+      - MrYazdan|39
+      - MrYazdan|40
+      - MrYazdan|41
+      - MrYazdan|42
+      - MrYazdan|43
+      - MrYazdan|44
